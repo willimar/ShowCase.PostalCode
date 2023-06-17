@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\ShowCase.PostalCode.Application\ShowCase.PostalCode.Application.csproj" />
   </ItemGroup>
 

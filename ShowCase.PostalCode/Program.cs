@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Hosting;
 using ShowCase.PostalCode;
 
 var builder = WebApplication.CreateBuilder(args);

@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.OpenApi.Models;
+using ShowCase.PostalCode.Application.Setups;
 using Swagger.Simplify;
 using System.Globalization;
 using System.Reflection;
-using ShowCase.PostalCode.Application.Setups;
 
 namespace ShowCase.PostalCode
 {
@@ -15,7 +15,7 @@ namespace ShowCase.PostalCode
 
             Startup.SetApiInfo(apiInfo.Info);
 
-            apiInfo.MajorVersion = 1;
+            apiInfo.MajorVersion = 2;
             apiInfo.GroupNameFormat = "'v'V";
 
             services.Configure<KestrelServerOptions>(options =>
